@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    int a, b, c;
+    int a, b, c,sum;
 
     printf("Enter three numbers: ");
     scanf("%d %d %d", &a, &b, &c);
@@ -12,6 +12,8 @@ int main() {
         printf("%d is the largest", b);
     else
         printf("%d is the largest", c);
-
+    sum=a+b+c;
+    printf("sum of three numbers : %d",sum);
+    
     return 0;
 }
